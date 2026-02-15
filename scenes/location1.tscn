@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3mkwvjxjlg7i"]
+
+[ext_resource type="PackedScene" uid="uid://bobpvnnqvw4dw" path="res://assets/american_vintage_house__with_interior.glb" id="1_4w4rc"]
+[ext_resource type="PackedScene" uid="uid://13ylygmxpoi" path="res://assets/player_model1.glb" id="2_ci06i"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_4w4rc")]
+
+[node name="Sketchfab_Scene" parent="." index="0" instance=ExtResource("2_ci06i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 59.847076, -864.7389)
+
+[node name="Sketchfab_model" parent="." index="1"]
+transform = Transform3D(1, 0, 0, 0, 2.220446e-16, 1, 0, -1, 2.220446e-16, 2200, -225, 0)

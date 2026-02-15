@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bnputikuhipy5"]
+
+[ext_resource type="PackedScene" uid="uid://13ylygmxpoi" path="res://assets/player_model1.glb" id="1_xhfnw"]
+
+[node name="Player" type="Node3D"]
+
+[node name="Sketchfab_Scene" parent="." instance=ExtResource("1_xhfnw")]
