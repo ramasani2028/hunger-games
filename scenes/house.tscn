@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" uid="uid://bobpvnnqvw4dw" path="res://assets/american_vintage_house__with_interior.glb" id="1_1"]
+
+[node name="House" type="Node3D"]
+
+[node name="american_vintage_house__with_interior" parent="." instance=ExtResource("1_1")]
